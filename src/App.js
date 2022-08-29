@@ -1,12 +1,11 @@
 import React from 'react';
-import { FaYoutube } from 'react-icons/fa';
+import Footer from './layout/footer';
+
 const App = () => {
   return (
     <div>
       <h1>Welcome to React.</h1>
-      <p>
-        Subscribe to my <FaYoutube /> channel
-      </p>
+      <Footer />
     </div>
   );
 };
