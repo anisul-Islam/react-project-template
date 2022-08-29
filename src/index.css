@@ -14,9 +14,24 @@ body {
   background-color: #4c4c4c;
 }
 
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  color: white;
+}
+main {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background-color: #2c2c2c;
-  min-height: 5vh;
+  height: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

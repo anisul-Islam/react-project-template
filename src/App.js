@@ -1,10 +1,12 @@
 import React from 'react';
 import Footer from './layout/footer';
+import Header from './layout/header';
 
 const App = () => {
   return (
     <div>
-      <h1>Welcome to React.</h1>
+      <Header />
+      <main>Welcome to React</main>
       <Footer />
     </div>
   );
