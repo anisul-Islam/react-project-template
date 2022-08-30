@@ -1,13 +1,20 @@
 import React from 'react';
-import Footer from './layout/footer';
-import Header from './layout/header';
+import { FaYoutube } from 'react-icons/fa';
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <main>Welcome to React</main>
-      <Footer />
+      <h1>Welcome to React</h1>
+      <footer>
+        <p className="left">
+          Subscribe to my{' '}
+          <a href="https://www.youtube.com/c/anisulislamrubel">
+            <FaYoutube className="footer__icon" />
+          </a>{' '}
+          channel
+        </p>
+        <p className="right">Developed with &hearts; by Anisul Islam</p>
+      </footer>
     </div>
   );
 };
