@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.productListingApp {
+  background-color: coral;
+  margin: 5px;
+  padding: 5px;
+}
+h1.title {
+  text-align: center;
+  background-color: coral;
+  color: black;
+}
+.productsDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product {
+  width: 31vw;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightsalmon;
+  color: black;
+  box-shadow: 2px 2px 2px lightsalmon;
+}
+.productImage {
+  width: 100%;
+  height: 300px;
+}
+.price,
+.rating {
+  color: aliceblue;
+}
+p.description {
+  font-size: 18px;
+}
+button.addTocartButton {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px;
+  color: brown;
+}
